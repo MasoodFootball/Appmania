@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="assest/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assest/css/index.css">
+<style>
+    
+@media only screen and (max-width:998px) {
+.toogle{
+
+  display:block !important;
+}
+.toogle .tog{
+  transition: 0.4s !important;
+}
+.toogle.act .tog:nth-child(2){
+  opacity: 0 !important;
+}
+.toogle.act .tog:nth-child(1){
+  transform: translateY(8) rotate(45deg) !important;
+  transition: 0.4s !important;
+}
+.toogle.act .tog:nth-child(3){
+  transition: 0.4s !important;
+  transform: translateY(-8) rotate(-45deg) !important;
+}}
+</style>
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <header>
+        <div class="navbar" id="navbar">
+            <div class="logo">
+                <a href="Appmania.html">APP<span>MANIA</span></a>
+            </div>
+            <div class="navlink ">
+                <ul>
+                    <li><a href="#home" class="ok" >HOME</a></li>
+                    <li><a href="#features">FEATURES</a></li>
+                    <li><a href="#gallery">GALLERY</a></li>
+                    <li><a href="#pricing">PRICING</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <li><a href="#download" class="down">DOWNLOAD</a></li>
+                </ul>
+            </div>
+            <div class="toogle" id="Toggle">
+                <span class="tog"></span>
+                <span class="tog"></span>
+                <span class="tog"></span>
+            </div>
+        </div>
+        <section class="hero" id="home">
+            <div class="hero-head" data-aos-once='true' data-aos="fade-up">
+                <h1>Mobile App Landing Page Template</h1>
+            </div>
+            <div class="hero-det" data-aos-once='true' data-aos="fade-down">
+                <p>The one and only solution for any kind of mobila app landing needs. Just change the screenshots and
+                    texts and you are good to go.</p>
+            </div>
+
+            <img data-aos="fade-up" data-aos-once='true'  data-aos-offset="400" src="assest/img/iphonex.png.webp" alt="">
+        </section>
+    </header>
+
+    <div class="client-logo">
+        <img data-aos="zoom-in" data-aos-once='true' src="assest/img/client-logos.png.webp" width="70%">
+    </div>
+
+    <section id="features" class="features">
+        <div class="feature">
+            <div class="feat-head">
+                <h3 data-aos-once='true' data-aos="fade-down">HIGHLIGHTS</h3>
+                <h1 data-aos-once='true' data-aos="fade-up">Features you love</h1>
+            </div>
+            <div class="feat-cont">
+                <div class="feat" data-aos-once='true'  data-aos="fade-up">
+                    <div class="feat-border">
+                        <div class="fe-img"><img src="assest/img/smile.svg" width="55px" alt=""></div>
+                        <div class="fe-cont">
+                            <h2>Simple</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu
+                                pellentesque</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="feat" data-aos-once='true'  data-aos="fade-up">
+                    <div class="feat-border">
+                        <div class="fe-img"><img src="assest/img/setting.svg" width="55px" alt=""></div>
+                        <div class="fe-cont">
+                            <h2>Customize</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu
+                                pellentesque</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="feat" data-aos-once='true'  data-aos="fade-up">
+                    <div class="feat-border">
+                        <div class="fe-img" ><img src="assest/img/lock.svg" width="55px" alt=""></div>
+                        <div class="fe-cont">
+                            <h2>Secure</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu
+                                pellentesque</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="discover-app">
+            <div class="discover-img"><img src="assest/img/perspective.png.webp" alt=""></div>
+            <div class="discover-cont" data-aos-once='true' data-aos="fade-down">
+                <div class="phone" data-aos-once='true' data-aos="flip-left"><img src="assest/img/phone.svg" alt=""></div>
+                <h1>Discover our App</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati vel exercitationem eveniet vero
+                    maxime ratione</p>
+                <a href="#"><button>READ MORE </button></a>
+            </div>
+        </div>
+        <div class="feat-app">
+            <div class="fea-head">
+                <h3 data-aos-once='true' data-aos="fade-down">FEATURES</h3>
+                <h1 data-aos-once='true' data-aos="fade-up">Do more with our app</h1>
+            </div>
+            <div class="fea-cont" data-aos-once='true' data-aos="fade-down">
+                <div class="tab">
+                    <div class="tab-list">
+                        <button type="button" class="tab-btn" data-id="tab1">Communication</button>
+                        <button type="button" class="tab-btn" data-id="tab2">Scheduling</button>
+                        <button type="button" class="tab-btn" data-id="tab3">Messages</button>
+                        <button type="button" class="tab-btn" data-id="tab4">Live chat</button>
+                    </div>
+                    <div class="tab-content">
+                        <div id="tab1" class="tab-item">
+                            <div class="tab-ite">
+                                <div class="tab-img"> <img src="assest/img/graphic.png.webp" alt=""></div>
+                                <div class="tab-cont">
+                                    <h2>Communicate with ease</h2>
+                                    <h5>Uniquely underwhelm premium outsourcing with proactive leadership skills.</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu
+                                        pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel
+                                        sapien. Vestibulum sit amet mattis ante. Ut placerat dui eu nulla congue
+                                        tincidunt ac a nibh. Mauris accumsan pulvinar lorem placerat volutpat. Praesent
+                                        quis facilisis elit. Sed condimentum neque quis ex porttitor,</p>
+                                    <p>malesuada faucibus augue aliquet. Sed elit est, eleifend sed dapibus a, semper a
+                                        eros. Vestibulum blandit vulputate pharetra. Phasellus lobortis leo a nisl
+                                        euismod, eu faucibus justo sollicitudin. Mauris consectetur, tortor sed tempor
+                                        malesuada, sem nunc porta augue, in dictum arcu tortor id turpis. Proin aliquet
+                                        vulputate aliquam.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div id="tab2" class="tab-item">
+                            <div class="tab-ite">
+                                <div class="tab-cont">
+                                    <h2>Scheduling when you want</h2>
+                                    <h5>Uniquely underwhelm premium outsourcing with proactive leadership skills.</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu
+                                        pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel
+                                        sapien. Vestibulum sit amet mattis ante. Ut placerat dui eu nulla congue
+                                        tincidunt ac a nibh. Mauris accumsan pulvinar lorem placerat volutpat. Praesent
+                                        quis facilisis elit. Sed condimentum neque quis ex porttitor,</p>
+                                    <p>malesuada faucibus augue aliquet. Sed elit est, eleifend sed dapibus a, semper a
+                                        eros. Vestibulum blandit vulputate pharetra. Phasellus lobortis leo a nisl
+                                        euismod, eu faucibus justo sollicitudin. Mauris consectetur, tortor sed tempor
+                                        malesuada, sem nunc porta augue, in dictum arcu tortor id turpis. Proin aliquet
+                                        vulputate aliquam.</p>
+                                </div>
+                                <div class="tab-img"> <img src="assest/img/graphic.png.webp" alt=""></div>
+                            </div>
+                        </div>
+                        <div id="tab3" class="tab-item">
+                            <div class="tab-ite">
+                                <div class="tab-img"> <img src="assest/img/graphic.png.webp" alt=""></div>
+                                <div class="tab-cont">
+                                    <h2>Realtime Messaging service</h2>
+                                    <h5>Uniquely underwhelm premium outsourcing with proactive leadership skills.</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu
+                                        pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel
+                                        sapien. Vestibulum sit amet mattis ante. Ut placerat dui eu nulla congue
+                                        tincidunt ac a nibh. Mauris accumsan pulvinar lorem placerat volutpat. Praesent
+                                        quis facilisis elit. Sed condimentum neque quis ex porttitor,</p>
+                                    <p>malesuada faucibus augue aliquet. Sed elit est, eleifend sed dapibus a, semper a
+                                        eros. Vestibulum blandit vulputate pharetra. Phasellus lobortis leo a nisl
+                                        euismod, eu faucibus justo sollicitudin. Mauris consectetur, tortor sed tempor
+                                        malesuada, sem nunc porta augue, in dictum arcu tortor id turpis. Proin aliquet
+                                        vulputate aliquam.</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div id="tab4" class="tab-item">
+                            <div class="tab-ite">
+                                <div class="tab-cont">
+                                    <h2>Live chat when you needed</h2>
+                                    <h5>Uniquely underwhelm premium outsourcing with proactive leadership skills.</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu
+                                        pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel
+                                        sapien. Vestibulum sit amet mattis ante. Ut placerat dui eu nulla congue
+                                        tincidunt ac a nibh. Mauris accumsan pulvinar lorem placerat volutpat. Praesent
+                                        quis facilisis elit. Sed condimentum neque quis ex porttitor,</p>
+                                    <p>malesuada faucibus augue aliquet. Sed elit est, eleifend sed dapibus a, semper a
+                                        eros. Vestibulum blandit vulputate pharetra. Phasellus lobortis leo a nisl
+                                        euismod, eu faucibus justo sollicitudin. Mauris consectetur, tortor sed tempor
+                                        malesuada, sem nunc porta augue, in dictum arcu tortor id turpis. Proin aliquet
+                                        vulputate aliquam.</p>
+                                </div>
+                                <div class="tab-img"> <img src="assest/img/graphic.png.webp" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="launch-app">
+            <div class="launch-img" data-aos-once='true' data-aos="fade-down"><img src="assest/img/dualphone.png.webp" width="100%" alt=""></div>
+            <div class="launch-cont" data-aos-once='true' data-aos="fade-up">
+                <div class="launch" data-aos-once='true' data-aos="flip-right"><img src="assest/img/launch.svg" alt=""></div>
+                <h1>Launch your App</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati vel exercitationem eveniet vero
+                    maxime ratione</p>
+                <a href="#"><button>READ MORE</button></a>
+            </div>
+        </div>
+        <div class="account-app">
+            <div class="account-content">
+                <div class="acc" data-aos-once='true' data-aos="fade-up">
+                    <div class="acc-num">1</div>
+                    <div class="acc-cont">
+                        <h2>Create an Account</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque
+                            pretium obcaecati vel exercitationem</p>
+                    </div>
+                </div>
+                <div class="acc" data-aos-once='true' data-aos="fade-up">
+                    <div class="acc-num">2</div>
+                    <div class="acc-cont">
+                        <h2>Share with friends</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque
+                            pretium obcaecati vel exercitationem eveniet</p>
+                    </div>
+                </div>
+                <div class="acc" data-aos-once='true' data-aos="fade-up">
+                    <div class="acc-num">3</div>
+                    <div class="acc-cont">
+                        <h2>Enjoy your life</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque
+                            pretium obcaecati vel exercitationem</p>
+                    </div>
+                </div>
+            </div>
+            <div class="account-img" data-aos-once='true' data-aos="fade-down">
+                <img src="assest/img/iphonex.png.webp" alt="">
+            </div>
+        </div>
+        <div class="app-testemonial">
+            <div class="test-head">
+                <h3 data-aos-once='true' data-aos="fade-down">TESTIMONIALS</h3>
+                <h1 data-aos-once='true' data-aos="fade-up">What our Customers Says</h1>
+            </div>
+            <div class="test-cont" data-aos-once='true' data-aos="fade-down">
+                <div class="swiper testemonial">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="assest/img/client.png.webp" alt="">
+                            <p>Uniquely streamline highly efficient scenarios and 24/7 initiatives. Conveniently embrace
+                                multifunctional ideas through proactive customer service. Distinctively conceptualize
+                                2.0 intellectual capital via user-centric partnerships.</p>
+                            <h2>Crystal Gordon</h2>
+                            <h3>United States</h3>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assest/img/client.png.webp" alt="">
+                            <p>Uniquely streamline highly efficient scenarios and 24/7 initiatives. Conveniently embrace
+                                multifunctional ideas through proactive customer service. Distinctively conceptualize
+                                2.0 intellectual capital via user-centric partnerships.</p>
+                            <h2>Crystal Gordon</h2>
+                            <h3>United States</h3>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assest/img/client.png.webp" alt="">
+                            <p>Uniquely streamline highly efficient scenarios and 24/7 initiatives. Conveniently embrace
+                                multifunctional ideas through proactive customer service. Distinctively conceptualize
+                                2.0 intellectual capital via user-centric partnerships.</p>
+                            <h2>Crystal Gordon</h2>
+                            <h3>United States</h3>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assest/img/client.png.webp" alt="">
+                            <p>Uniquely streamline highly efficient scenarios and 24/7 initiatives. Conveniently embrace
+                                multifunctional ideas through proactive customer service. Distinctively conceptualize
+                                2.0 intellectual capital via user-centric partnerships.</p>
+                            <h2>Crystal Gordon</h2>
+                            <h3>United States</h3>
+                        </div>
+
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery-app">
+        <div class="gal-head">
+            <h3 data-aos-once='true' data-aos="fade-down">GALLERY</h3>
+            <h1 data-aos-once='true' data-aos="fade-up">App Screenshots</h1>
+        </div>
+        <div class="gal-cont">
+            <div class="swiper gallery" data-aos-once='true' data-aos="fade-down">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="assest/img/screen1.jpg.webp" alt=""></div>
+                    <div class="swiper-slide"><img src="assest/img/screen2.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="assest/img/screen3.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="assest/img/screen1.jpg.webp" alt=""></div>
+                    <div class="swiper-slide"><img src="assest/img/screen3.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="assest/img/screen2.jpg" alt=""></div>
+                </div>
+                <div class="swiper-pagination" data-aos-once='true' data-aos="fade-up"></div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="pricing" class="pricing-app">
+        <div class="price-head">
+            <h3 data-aos-once='true' data-aos="fade-down">PRICING</h3>
+            <h1 data-aos-once='true' data-aos="fade-up">Upgrade to Pro</h1>
+        </div>
+        <div class="price-cont">
+            <div class="price" data-aos-once='true' data-aos="fade-down">
+                <div class="p-head">
+                    <h3>PERSONAL</h3>
+                    <h2>$14/m</h2>
+                </div>
+                <div class="p-cont">
+                    <p>10 Projects</p>
+                    <p>5 GB Storage</p>
+                    <p>Basic Support</p>
+                    <p>Collaboration</p>
+                    <p>Reports and analytics</p>
+                </div>
+                <button>CHOOSE THIS PLAN</button>
+            </div>
+            <div class="price p-active" data-aos-once='true' data-aos="fade-down">
+                <div class="p-head">
+                    <h3>FOR TEAMS</h3>
+                    <h2>$29/m</h2>
+                </div>
+                <div class="p-cont">
+                    <p>Unlimited Projects</p>
+                    <p>100 GB Storage</p>
+                    <p>Priority Support</p>
+                    <p>Collaboration</p>
+                    <p>Reports and analytics</p>
+                </div>
+                <button>CHOOSE THIS PLAN</button>
+            </div>
+            <div class="price" data-aos-once='true' data-aos="fade-down">
+                <div class="p-head">
+                    <h3>ENTERPRISE</h3>
+                    <h2>$249/m</h2>
+                </div>
+                <div class="p-cont">
+                    <p>Unlimited Projects</p>
+                    <p>Unlimited Storage</p>
+                    <p>Collaboration</p>
+                    <p>Reports and analytics</p>
+                    <p>Web hooks</p>
+                </div>
+                <button>CHOOSE THIS PLAN</button>
+            </div>
+        </div>
+    </section>
+    <div  class="faq-app">
+        <div class="faq-head">
+            <h3 data-aos-once='true' data-aos="fade-down">FAQ</h3>
+            <h1 data-aos-once='true' data-aos="fade-up">Frequently Asked Questions</h1>
+        </div>
+        <div class="faq-cont">
+            <div class="faq" data-aos-once='true' data-aos="fade-down">
+                <h2>Can I try before I buy?</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque
+                    pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien. Vestibulum sit amet mattis
+                    ante.</p>
+            </div>
+            <div class="faq" data-aos-once='true' data-aos="fade-down">
+                <h2>Can I change my plan later?</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque
+                    pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien. Vestibulum sit amet mattis
+                    ante.</p>
+            </div>
+            <div class="faq" data-aos-once='true' data-aos="fade-down">
+                <h2>What payment methods do you accept?</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque
+                    pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien. Vestibulum sit amet mattis
+                    ante.</p>
+            </div>
+            <div class="faq" data-aos-once='true' data-aos="fade-down">
+                <h2>Do you have a contract?</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque
+                    pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien. Vestibulum sit amet mattis
+                    ante.</p>
+            </div>
+        </div>
+    </div>
+    <section id="download" class="download-app">
+        <div class="download">
+            <div class="phone" data-aos-once='true' data-aos="flip-left"><img src="assest/img/phone.svg" alt=""></div>
+            <h1 data-aos-once='true' data-aos="fade-down">Download Anywhere</h1>
+            <h6 data-aos-once='true' data-aos="fade-down">Available for all major mobile and desktop platforms. Rapidiously visualize optimal ROI rather than
+                enterprise-wide methods of empowerment.</h6>
+            <div class="down-button" data-aos-once='true' data-aos="fade-down">
+                <button><img src="assest/img/appleicon.png.webp" alt=""> APP STORE</button>
+                <button><img src="assest/img/playicon.png.webp" alt=""> GOOGLE PLAY</button>
+            </div>
+            <p data-aos-once='true' data-aos="fade-down">*Works on iOS 10.0.5+, Android Kitkat and above.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-app">
+        <div class="contact-add">
+            <div class="add" data-aos-once='true' data-aos="fade-down">
+                <h1>
+                    <img src="assest/img/location.svg" alt="location" width="25px"> 1485 Pacific St, Brooklyn, NY 11216
+                    USA
+                </h1>
+            </div>
+            <div class="cont" data-aos-once='true' data-aos="fade-up">
+                <div class="email"><img src="assest/img/email.svg" alt="" width="25px"> masood1baloshi@gmail.com</div>
+                <div class="phone"><img src="assest/img/contact.svg" alt="" width="25px"> 0317-1009841</div>
+            </div>
+        </div>
+        <div class="contact-icon">
+            <div class="icon" data-aos-once='true' data-aos="fade-down"><img src="assest/img/facebook.svg" alt=""></div>
+            <div class="icon" data-aos-once='true' data-aos="fade-down"><img src="assest/img/twitter.svg" alt=""></div>
+            <div class="icon" data-aos-once='true' data-aos="fade-down"><img src="assest/img/instagram.svg" alt=""></div>
+        </div>
+    </section>
+
+    <footer data-aos-once='true' data-aos="fade-down">
+        <div class="foot-cont" >COPYRIGHT © 2017. ALL RIGHTS RESERVED. APPMANIA TEMPLATE BY <span style="color: rgb(197, 27, 24);">MUHAMMAD MASOOD</span> </div>
+        <div class="foot-link">
+            <a href="#">PRESS</a>
+            <a href="#">TERMS</a>
+            <a href="#">PRIVACY</a>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    <script src="assest/js/swiper-bundle.min.js"></script>
+    <script src="assest/js/jquery.min.js"></script>
+    <script src="assest/js/navscroll.js"></script>
+    <script src="assest/js/index.js"></script>
+</body>
+
+</html>
